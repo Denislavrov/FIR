@@ -6,10 +6,12 @@
  * Time: 16:55
  */
 
-$data = json_decode($_POST['data'], true);
-$message = $data['name'] . " оставил заявку на сайте.\r\nтелефон клиента: " . $data['phone'] .
-    "\r\nпочта клиента: " . $data['mail'] . "\r\nкоментарий: " . $data['comment'];
-$a = mail("Den.lavrov.95@mail.ru", "Заявка на сайте", $message, "From: elka-chel\r\n");
+$message = $_POST['name'] . " оставил заявку на сайте.\r\n
+            телефон клиента: " . $_POST['phone'] . "\r\n
+            почта клиента: " . $_POST['mail'] . "\r\n
+            коментарии: " . $_POST['comment'] . "\r\n
+            высота елки: " . $_POST['qty'] . "\r\n
+            елка №: " . $_POST['item'];
+$a = mail("den.lavrov.95@mail.ru,nikolai_lazarev-@mail.ru", "заявка на сайте", $message, "from: elka-chel\r\n");
 if ($a)
-    echo "Заявка отправлена!";
-?>
+    echo "заявка отправлена!";

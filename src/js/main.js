@@ -49,7 +49,9 @@ $('.menu-item a ').on('click', function () {
 });
 
 //sendMail
-$('#orderFormBtn').on('click', function () {
+$('#orderFormBtn').on('click', function (e) {
+    e.preventDefault();
+
     $.ajax({
         type: 'POST',
         data: {
@@ -58,17 +60,42 @@ $('#orderFormBtn').on('click', function () {
             mail: $('#orderMail').val(),
             comment: $('#orderComment').val(),
             qty: $('#orderQty').val(),
-            price: $('#orderPrice').val()
+            item: $('#orderItem').val()
         },
         url: './mail.php',
         cache: false,
         success: function (html) {
             alert(html);
+            //console.log(html);
         },
         error: function (error) {
             console.log('err');
         }
     });
+    $('#orderWindow').css('display', 'none');
+});
+
+//sendMail callback
+$('#callBackBtn').on('click', function (e) {
+     e.preventDefault();
+
+    $.ajax({
+        type: 'POST',
+        data: {
+            Backname: $('#callBackName').val(),
+            Backphone: $('#callBackPhone').val()
+        },
+        url: './Callback.php',
+        cache: false,
+        success: function (html) {
+            alert(html);
+            //console.log(html);
+        },
+        error: function (error) {
+            console.log('err');
+        }
+    });
+    $('#callbackWindow').css('display', 'none');
 });
 
 //selected size and price
@@ -105,8 +132,8 @@ $('.orderBtn').on('click',function () {
 
     console.log($(this));
     $('#orderQty').val(itemHeight);
-    $('#orderPrice').val(item);
+    $('#orderItem').val(item);
     console.log($('#orderQty').val());
-    console.log($('#orderPrice').val());
+    console.log($('#orderItem').val());
 
 });

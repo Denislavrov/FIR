@@ -49,15 +49,37 @@ img {
     flex-wrap: wrap;
   }
   &__item {
+    display: flex;
+    width: 45%;
     padding: 10px;
-    margin: 15px 35px;
+    margin: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 10px 10px 54px 0 rgba(222, 222, 222, 1);
   }
+  &__info
+  {
+      margin: 40px auto;
+  }
+  &__description
+  {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    text-align: left;
+    color: #414141;
+  }
+  &__titledescription
+  {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+  }
 
   &__img {
-    width: 200px;
+    display: block;
+    width: 250px;
     height: auto;
     margin: 0 auto;
 
@@ -72,7 +94,7 @@ img {
   &__smallimg {
     border: 2px solid white;
     display: block;
-    width: 65px;
+    width: 84px;
     height: auto;
   }
   &__buy {

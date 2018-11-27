@@ -56,225 +56,269 @@
                 <div class="order__items">
                     <article class="order__item" data-item="1">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/800x400" data-fancybox="images1" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e1/headImg.jpg" data-fancybox="images1" class="order__img">
+                                <img src="src/img/e1/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/600x500" data-fancybox="images1" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e1/img2.jpg" data-fancybox="images1" class="order__smallimg">
+                                    <img src="src/img/e1/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images1" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e1/img3.jpg" data-fancybox="images1" class="order__smallimg">
+                                    <img src="src/img/e1/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images1" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e1/img4.jpg" data-fancybox="images1" class="order__smallimg">
+                                    <img src="src/img/e1/img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Ель Изумрудная</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="120" class="order__option" data-orderold="1000" data-ordernew="999" selected>120
-                                    </option>
-                                    <option value="150" class="order__option" data-orderold="1300" data-ordernew="1100">150
-                                    </option>
-                                    <option value="180" class="order__option" data-orderold="1500" data-ordernew="1300">180
-                                    </option>
-                                    <option value="210" class="order__option" data-orderold="1700" data-ordernew="1400">210
-                                    </option>
-                                    <option value="240" class="order__option" data-orderold="1900" data-ordernew="1500">240
-                                    </option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Ель Изумрудная</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="120" class="order__option" data-orderold="2150₽" data-ordernew="1150₽" selected>120
+                                        </option>
+                                        <option value="150" class="order__option" data-orderold="2850₽" data-ordernew="1850₽">150
+                                        </option>
+                                        <option value="180" class="order__option" data-orderold="3600₽" data-ordernew="2600₽">180
+                                        </option>
+                                        <option value="210" class="order__option" data-orderold="4100₽" data-ordernew="3100₽">210
+                                        </option>
+                                        <option value="240" class="order__option" data-orderold="5550₽" data-ordernew="4550₽">240
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price active">
+                                <span class="order__old">2150₽</span>
+                                <span class="order__new">1150₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Отличительной особенностью данной елки являются наконечники веток в виде
+                                заснеженных трезубцев.
+                                <br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price active">
-                            <span class="order__old">1300₽</span>
-                            <span class="order__new">1999₽</span>
-                        </div>
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
 
-                    <article class="order__item"  data-item="2">
+                    <article class="order__item" data-item="2">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/300x300" data-fancybox="images2" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e2/headImg.jpg" data-fancybox="images2" class="order__img">
+                                <img src="src/img/e2/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/300x300" data-fancybox="images2" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e2/img2.jpg" data-fancybox="images2" class="order__smallimg">
+                                    <img src="src/img/e2/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images2" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e2/img3.jpg" data-fancybox="images2" class="order__smallimg">
+                                    <img src="src/img/e2/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images2" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e2/img4.jpg" data-fancybox="images2" class="order__smallimg">
+                                    <img src="src/img/e2/img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Ель Белла</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="60" class="order__option" data-orderold="1000" data-ordernew="999">60</option>
-                                    <option value="90" class="order__option" data-orderold="1200" data-ordernew="1099">90</option>
-                                    <option value="120" class="order__option" data-orderold="9090" data-ordernew="1233">120</option>
-                                    <option value="150" class="order__option" data-orderold="1000" data-ordernew="999">150</option>
-                                    <option value="180" class="order__option" data-orderold="1000" data-ordernew="999">180</option>
-                                    <option value="210" class="order__option" data-orderold="1000" data-ordernew="999">210</option>
-                                    <option value="240" class="order__option" data-orderold="1000" data-ordernew="999">240</option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Ель Белла</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="60" class="order__option" data-orderold="1750₽" data-ordernew="750₽">60</option>
+                                        <option value="90" class="order__option" data-orderold="1850₽" data-ordernew="850₽">90</option>
+                                        <option value="120" class="order__option" data-orderold="2450₽" data-ordernew="1450₽">120</option>
+                                        <option value="150" class="order__option" data-orderold="2900₽" data-ordernew="1900₽">150</option>
+                                        <option value="180" class="order__option" data-orderold="3200₽" data-ordernew="2200₽">180</option>
+                                        <option value="210" class="order__option" data-orderold="3700₽" data-ordernew="2700₽">210</option>
+                                        <option value="240" class="order__option" data-orderold="4200₽" data-ordernew="3200₽">240</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price">
+                                <span class="order__old">1750₽</span>
+                                <span class="order__new">750₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Большое количество иголочек создают невероятно пышный образ этой ели. Выглядит очень
+                                пушисто с небольшим количеством снега на веточках.
+                                <br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price">
-                            <span class="order__old">1999 ₽</span>
-                            <span class="order__new">1999 ₽</span>
-                        </div>
-
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
 
-                    <article class="order__item"  data-item="3">
+                    <article class="order__item" data-item="3">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/300x300" data-fancybox="images3" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e3/headImg.jpg" data-fancybox="images3" class="order__img">
+                                <img src="src/img/e3/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/300x300" data-fancybox="images3" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e3/img2.jpg" data-fancybox="images3" class="order__smallimg">
+                                    <img src="src/img/e3/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images3" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e3/img3.jpg" data-fancybox="images3" class="order__smallimg">
+                                    <img src="src/img/e3/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images3" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e3/img4.jpg" data-fancybox="images3" class="order__smallimg">
+                                    <img src="src/img/e3/img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Ель Русская</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="180" class="order__option" data-orderold="1000" data-ordernew="999">180</option>
-                                    <option value="210" class="order__option" data-orderold="1200" data-ordernew="1099">210</option>
-                                    <option value="240" class="order__option" data-orderold="9090" data-ordernew="1233">240</option>
-                                    <option value="300" class="order__option" data-orderold="1000" data-ordernew="999">300</option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Ель Русская</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="180" class="order__option" data-orderold="7000₽" data-ordernew="6000₽">180</option>
+                                        <option value="210" class="order__option" data-orderold="8500₽" data-ordernew="7500₽">210</option>
+                                        <option value="240" class="order__option" data-orderold="15000₽" data-ordernew="10000₽">240</option>
+                                        <option value="300" class="order__option" data-orderold="22000₽" data-ordernew="17000₽">300</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price">
+                                <span class="order__old">7000₽</span>
+                                <span class="order__new">6000₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Искусственная новогодняя елка премиум-класса с очень густой хвоей насыщенного зеленого
+                                цвета. Сделана из упругого ПВХ и может выдержать довольно большое количество украшений.
+                                <br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price">
-                            <span class="order__old">1999 ₽</span>
-                            <span class="order__new">1999 ₽</span>
-                        </div>
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
 
-                    <article class="order__item"  data-item="4">
+                    <article class="order__item" data-item="4">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/300x300" data-fancybox="images4" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e4/headImg.jpg" data-fancybox="images4" class="order__img">
+                                <img src="src/img/e4/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/300x300" data-fancybox="images4" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e4/img2.jpg" data-fancybox="images4" class="order__smallimg">
+                                    <img src="src/img/e4/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images4" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e4/img3.jpg" data-fancybox="images4" class="order__smallimg">
+                                    <img src="src/img/e4/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images4" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e4/img4.jpg" data-fancybox="images4" class="order__smallimg">
+                                    <img src="src/img/e4/img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Лесная ёлочка</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="120" class="order__option" data-orderold="1000" data-ordernew="999">120</option>
-                                    <option value="150" class="order__option" data-orderold="1200" data-ordernew="1099">150</option>
-                                    <option value="180" class="order__option" data-orderold="9090" data-ordernew="1233">180</option>
-                                    <option value="210" class="order__option" data-orderold="1000" data-ordernew="999">210</option>
-                                    <option value="240" class="order__option" data-orderold="1000" data-ordernew="999">240</option>
-                                    <option value="300" class="order__option" data-orderold="1000" data-ordernew="999">300</option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Лесная ёлочка</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="120" class="order__option" data-orderold="3300₽" data-ordernew="2300₽">120</option>
+                                        <option value="150" class="order__option" data-orderold="3900₽" data-ordernew="2900₽">150</option>
+                                        <option value="180" class="order__option" data-orderold="5700₽" data-ordernew="3700₽">180</option>
+                                        <option value="210" class="order__option" data-orderold="7400₽" data-ordernew="5400₽">210</option>
+                                        <option value="300" class="order__option" data-orderold="16500₽" data-ordernew="13500₽">300</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price">
+                                <span class="order__old">3300₽</span>
+                                <span class="order__new">2300₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Очень красивая ель из хвои глубокого темно-зеленого цвета. Шишки и ягодки равномерно
+                                распределены по веткам, как будто ее только что забрали из леса.
+                                <br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price">
-                            <span class="order__old">1999 ₽</span>
-                            <span class="order__new">1999 ₽</span>
-                        </div>
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
 
-                    <article class="order__item"  data-item="5">
+                    <article class="order__item" data-item="5">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/300x300" data-fancybox="images5" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e5/headImg.jpg" data-fancybox="images5" class="order__img">
+                                <img src="src/img/e5/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/300x300" data-fancybox="images5" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e5/img2.jpg" data-fancybox="images5" class="order__smallimg">
+                                    <img src="src/img/e5/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images5" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e5/img3.jpg" data-fancybox="images5" class="order__smallimg">
+                                    <img src="src/img/e5/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images5" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e5/img2.jpg" data-fancybox="images5" class="order__smallimg">
+                                    <img src="src/img/e5/img2.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Новогодняя сказка</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="120" class="order__option"data-orderold="1000" data-ordernew="999">120</option>
-                                    <option value="150" class="order__option"data-orderold="1200" data-ordernew="1099">150</option>
-                                    <option value="180" class="order__option"data-orderold="9090" data-ordernew="1233">180</option>
-                                    <option value="210" class="order__option"data-orderold="1000" data-ordernew="999">210</option>
-                                    <option value="240" class="order__option"data-orderold="1000" data-ordernew="999">240</option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Новогодняя сказка</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="120" class="order__option"data-orderold="2100₽" data-ordernew="1100₽">120</option>
+                                        <option value="150" class="order__option"data-orderold="3000₽" data-ordernew="4000₽">150</option>
+                                        <option value="180" class="order__option"data-orderold="5500₽" data-ordernew="3500₽">180</option>
+                                        <option value="210" class="order__option"data-orderold="7000₽" data-ordernew="5000₽">210</option>
+                                        <option value="240" class="order__option"data-orderold="10000₽" data-ordernew="7000₽">240</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price">
+                                <span class="order__old">2100₽</span>
+                                <span class="order__new">1100₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Благодаря своей форме и заснеженным веточкам, она смотрится
+                                как настоящая лесная елка.<br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price">
-                            <span class="order__old">1999 ₽</span>
-                            <span class="order__new">1999 ₽</span>
-                        </div>
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
 
-                    <article class="order__item"  data-item="6">
+                    <article class="order__item" data-item="6">
                         <div class="order__imgblock">
-                            <a href="http://placehold.it/300x300" data-fancybox="images6" class="order__img">
-                                <img src="http://placehold.it/120x150" alt="1">
+                            <a href="src/img/e6/headImg.jpg" data-fancybox="images6" class="order__img">
+                                <img src="src/img/e6/headImg.jpg" alt="1">
                             </a>
                             <div class="order__smallimgs">
-                                <a href="http://placehold.it/300x300" data-fancybox="images6" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e6/img2.jpg" data-fancybox="images6" class="order__smallimg">
+                                    <img src="src/img/e6/img2.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images6" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e6/img3.jpg" data-fancybox="images6" class="order__smallimg">
+                                    <img src="src/img/e6/img3.jpg" alt="">
                                 </a>
-                                <a href="http://placehold.it/300x300" data-fancybox="images6" class="order__smallimg">
-                                    <img src="http://placehold.it/120x150" alt="">
+                                <a href="src/img/e6/img4.jpg" data-fancybox="images6" class="order__smallimg">
+                                    <img src="src/img/e6/img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <h3 class="order__subtitle">Таёжная краса</h3>
-                        <div class="order__text">
-                            <div class="styled-selected green-selected rounded">
-                                <select name="" id="" class="order__select">
-                                    <option value="" class="order__option" data-orderold="1000" data-ordernew="999">180</option>
-                                    <option value="" class="order__option" data-orderold="1200" data-ordernew="1099">210</option>
-                                    <option value="" class="order__option" data-orderold="9090" data-ordernew="1233">240</option>
-                                    <option value="" class="order__option" data-orderold="1000" data-ordernew="999">300</option>
-                                </select>
+                        <div class="order__info">
+                            <h3 class="order__subtitle">Таёжная краса</h3>
+                            <div class="order__text">
+                                <div class="styled-selected green-selected rounded">
+                                    <select name="" id="" class="order__select">
+                                        <option value="180" class="order__option" data-orderold="12000₽" data-ordernew="10000₽">180</option>
+                                        <option value="210" class="order__option" data-orderold="16000₽" data-ordernew="13000₽">210</option>
+                                        <option value="240" class="order__option" data-orderold="20000₽" data-ordernew="16000₽">240</option>
+                                        <option value="300" class="order__option" data-orderold="37000₽" data-ordernew="32000₽">300</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order__price">
+                                <span class="order__old">12000₽</span>
+                                <span class="order__new">10000₽</span>
+                            </div>
+                            <a class="order__buy orderBtn">Заказать</a>
+                            <div class="order__description">
+                                <div class="order__titledescription">Описание:</div>
+                                Дизайнерская ель премиум класса с очень элегантной густой заснеженностью,
+                                напоминает настоящую сосну после снегопада.<br/> Производство: Россия.
                             </div>
                         </div>
-                        <div class="order__price">
-                            <span class="order__old">1999 ₽</span>
-                            <span class="order__new">1999 ₽</span>
-                        </div>
-                        <a class="order__buy orderBtn">Заказать</a>
                     </article>
                 </div>
             </div>
@@ -417,7 +461,7 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <span class="footer__copy">© 2014-2018  All rights resevered.</span>
+            <span class="footer__copy">© 2014-2018 КупиЕлку.рф  All rights resevered.</span>
         </div>
     </footer>
 </div>
@@ -428,10 +472,10 @@
         <span class="modal-close">&times;</span>
 
         <div class="modal-content">
-            <form action="#" class="callback-form">
-                <div class="callback-name"><input type="text" class="input-name" placeholder="Ваше Имя"></div>
-                <div class="callback-phone"><input type="text" class="input-phone" PLACEHOLDER="Телефон"></div>
-                <div class="callback-button"><input type="submit" class="input-button" value="Отправить"></div>
+            <form class="callback-form">
+                <div class="callback-name"><input type="text" class="input-name" id="callBackName" placeholder="Ваше Имя"></div>
+                <div class="callback-phone"><input type="text" class="input-phone" id="callBackPhone" PLACEHOLDER="Телефон"></div>
+                <div class="callback-button"><input type="button" class="input-button" id="callBackBtn" value="Отправить"></div>
             </form>
         </div>
     </div>
@@ -444,7 +488,7 @@
         <span class="order-close">&times;</span>
 
         <div class="order-content">
-            <form action="#" class="order-form">
+            <form class="order-form">
                 <div class="order-name"><input type="text" class="input-name" id="orderName" placeholder="Ваше Имя">
                 </div>
                 <div class="order-phone"><input type="text" class="input-phone" id="orderPhone" PLACEHOLDER="Телефон">
@@ -452,10 +496,10 @@
                 <div class="order-email"><input type="mail" class="input-email" id="orderMail" PLACEHOLDER="Email">
                 </div>
                 <div class="order-qty"><input type="hidden" class="input-qty" id="orderQty" PLACEHOLDER="Количество"></div>
-                <div class="order-price"><input type="hidden" class="input-price" id="orderPrice" PLACEHOLDER="Количество"></div>
+                <div class="order-price"><input type="hidden" class="input-price" id="orderItem" PLACEHOLDER="Количество"></div>
                 <div class="order-comment"><textarea class="textarea-order" id="orderComment"
                                                      PLACEHOLDER="комментарий к заказу"></textarea></div>
-                <div class="order-button"><input type="submit" class="input-button" id="orderFormBtn" value="Отправить">
+                <div class="order-button"><input type="button" class="input-button" id="orderFormBtn" value="Отправить">
                 </div>
             </form>
         </div>
