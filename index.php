@@ -35,6 +35,7 @@
                             <a class="header__callback callBackBtn">Обратный звонок</a>
                         </div>
                     </div>
+                    <a  class="header__mobilelink"><i class="fas fa-bars"></i></a>
                     <nav class="menu">
                         <li class="menu-item"><a href="#orderProduct" class="menu-link">Заказать ёлку</a></li>
                         <li class="menu-item"><a href="#ourPluses" class="menu-link">Преимущества</a></li>
@@ -391,7 +392,7 @@
                             <i class="fas fa-map-marked-alt"></i>
                         </div>
                         <div class="delivery__subtitle">Пункт самовывоза в Челябинске</div>
-                        <div class="delivery__text">Вы можете забрать Вашу ёлку по Адресу: **********</div>
+                        <div class="delivery__text">Вы можете забрать Вашу ёлку по Адресу: г.Челябинск улица Марины Расковой 6</div>
                     </div>
 
                     <div class="delivery__item">
@@ -424,15 +425,16 @@
                         <ul class="footer__ul">
                             <li class="footer__li"><a href="tel:+79823029303" class="footer__link"><i
                                             class="fas fa-mobile-alt"></i>+7(982)-302-93-03</a></li>
-                            <li class="footer__li"><a href="mailto:123@mail.ru" class="footer__link"><i
-                                            class="fas fa-envelope-open"></i>1223@mail.ru</a></li>
+                            <li class="footer__li"><a href="mailto:nikolai_lazarev-@mail.ru" class="footer__link"><i
+                                            class="fas fa-envelope-open"></i>kupielochku@mail.ru</a></li>
                         </ul>
                     </div>
 
                     <div class="footer__item">
                         <div class="footer__subtitle">Самовывоз</div>
                         <ul class="footer__ul">
-                            <li class="footer__li"><a class="footer__link"><i class="fas fa-map-marker-alt"></i>Адрес*******</a>
+                            <li class="footer__li"><a class="footer__link"><i class="fas fa-map-marker-alt"></i>
+                                    г.Челябинск<br/> Марины Расковой 6</a>
                             </li>
 
                         </ul>
@@ -441,11 +443,11 @@
                     <div class="footer__item">
                         <div class="footer__subtitle">мы всегда на связи</div>
                         <ul class="footer__ul _social">
-                            <li class="footer__li"><a href="" class="footer__link"><i class="fab fa-telegram-plane"></i></a>
+                            <li class="footer__li"><a href="tg://resolve?domain=sandali74" class="footer__link"><i class="fab fa-telegram-plane"></i></a>
                             </li>
-                            <li class="footer__li"><a href="" class="footer__link"><i class="fab fa-whatsapp"></i></a>
+                            <li class="footer__li"><a href="whatsapp://send?phone=+79823029303" class="footer__link"><i class="fab fa-whatsapp"></i></a>
                             </li>
-                            <li class="footer__li"><a href="" class="footer__link"><i class="fab fa-viber"></i></a></li>
+                            <li class="footer__li"><a href="viber://add?number=+79823029303" class="footer__link"><i class="fab fa-viber"></i></a></li>
                         </ul>
                     </div>
 
@@ -461,7 +463,7 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <span class="footer__copy">© 2014-2018 КупиЕлку.рф  All rights resevered.</span>
+            <span class="footer__copy">© 2014-2018 КупиЕлку.рф  All rights RESERVED.</span>
         </div>
     </footer>
 </div>
@@ -489,7 +491,7 @@
 
         <div class="order-content">
             <form class="order-form">
-                <div class="order-name"><input type="text" class="input-name" id="orderName" placeholder="Ваше Имя">
+                <div class="order-name"><input type="text" class="input-name" id="orderName" placeholder="ФИО">
                 </div>
                 <div class="order-phone"><input type="text" class="input-phone" id="orderPhone" PLACEHOLDER="Телефон">
                 </div>

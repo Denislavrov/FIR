@@ -35,6 +35,15 @@ orderClose.onclick = function () {
     orderModal.style.display = 'none';
 };
 
+//mobile-link
+$('.header__mobilelink').on('click', function () {
+
+    if($('.menu').is(':visible') == false) {
+    $('.menu').addClass('active');
+    }
+    else
+    $('.menu').removeClass('active');
+});
 
 //animate menu scroll
 $('.menu-item a ').on('click', function () {
@@ -89,7 +98,6 @@ $('#callBackBtn').on('click', function (e) {
         cache: false,
         success: function (html) {
             alert(html);
-            //console.log(html);
         },
         error: function (error) {
             console.log('err');

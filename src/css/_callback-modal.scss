@@ -24,6 +24,10 @@
     margin: 5% auto;
     border-radius: 5px;
     z-index: 2;
+    @media screen and (max-width: 768px) {
+      width: 95%;
+      margin: 35% auto;
+    }
   }
     .modal-content,
     .order-content{

@@ -29,6 +29,17 @@ img {
 .container {
   width: 1100px;
   margin: 0 auto;
+
+  @media screen and(max-width: 1100px){
+    width: 95%;
+  }
+
+  @media screen and(max-width: 1024px){
+    width: 95%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 }
 
 /*-----------------------
@@ -42,11 +53,17 @@ img {
     font-size: 45px;
     font-weight: bold;
     color: #222222;
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+    }
   }
   &__items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    @media screen and (max-width: 768px) {
+     flex-direction: column;
+    }
   }
   &__item {
     display: flex;
@@ -56,10 +73,26 @@ img {
     text-align: center;
     border-radius: 10px;
     box-shadow: 10px 10px 54px 0 rgba(222, 222, 222, 1);
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+    @media screen and (max-width: 768px) {
+      flex-direction: row;
+      width: 100%;
+      margin: 15px 0;
+    }
+    @media screen and (max-width: 478px) {
+     flex-direction: column;
+     width: 100%;
+     margin: 15px 0;
+    }
   }
   &__info
   {
       margin: 40px auto;
+    @media screen and (max-width: 768px) {
+     margin: 5px auto;
+    }
   }
   &__description
   {
@@ -68,6 +101,10 @@ img {
     font-size: 14px;
     text-align: left;
     color: #414141;
+    @media screen and (max-width: 478px) {
+      display: none;
+    }
+
   }
   &__titledescription
   {
@@ -82,6 +119,12 @@ img {
     width: 250px;
     height: auto;
     margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+      width: 60%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 95%;
+    }
 
     & img {
       min-width: 100%;
@@ -90,12 +133,21 @@ img {
   &__smallimgs {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      justify-content: center;
+    }
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
   }
   &__smallimg {
     border: 2px solid white;
     display: block;
-    width: 84px;
+    width: 63px;
     height: auto;
+    @media screen and (max-width: 1024px) {
+
+    }
   }
   &__buy {
     margin: 15px 0;
@@ -159,17 +211,33 @@ ADVANTAGES
   background-size: cover;
   margin: 40px 0;
   padding: 50px;
+  @media screen and (max-width: 768px) {
+    min-height: 500px;
+  }
+  @media screen and (max-width: 478px) {
+    min-height: 794px;
+  }
   &__title {
     padding: 40px 0;
     text-align: center;
     font-size: 45px;
     font-weight: bold;
     color: #ffffff;
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      padding: 20px 0;
+    }
   }
   &__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    @media screen and (max-width: 768px) {
+      flex-direction: row;
+    }
+    @media screen and (max-width: 478px) {
+      flex-direction: column;
+    }
   }
   .fa-award {
     padding: 10px;
@@ -177,6 +245,12 @@ ADVANTAGES
     transform: rotate(30deg);
     transition: 0.5s transform;
     color: #3b8042;
+    @media screen and (max-width: 1024px) {
+      font-size: 35px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 25px;
+    }
   }
   &__item {
     width: 45%;
@@ -193,6 +267,23 @@ ADVANTAGES
     font-weight: bold;
     text-decoration: underline;
     box-shadow: 10px 10px 54px 0 rgba(34, 34, 34, 1);
+    @media screen and (max-width: 1024px) {
+      width: 44%;
+      padding: 20px;
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 16px;
+      font-size: 13px;
+      width: 41%;
+      height: auto;
+    }
+    @media screen and (max-width: 478px) {
+      width: 100%;
+      margin: 10px 0;
+      padding: 25px;
+      font-size: 18px;
+    }
     &:hover .fa-award {
       transform: rotate(0deg);
     }
@@ -217,6 +308,13 @@ delivery
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 54px 0 rgba(222, 222, 222, 1);
+    @media screen and (max-width: 1024px) {
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 768px) {
+     flex-direction: column;
+      flex-direction: row;
+    }
   }
   &__item {
     width: 25%;
@@ -224,6 +322,13 @@ delivery
     padding: 10px;
     cursor: pointer;
     text-align: center;
+    @media screen and (max-width: 1024px) {
+      width: 50%!important;
+      margin-right: 0;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
     &:last-child {
       margin-right: 0;
     }
@@ -235,6 +340,12 @@ delivery
     color: #3b8042;
     font-size: 80px;
     padding: 10px 0;
+    @media screen and(max-width: 1100px){
+      font-size: 70px;
+    }
+    @media screen and (max-width: 1024px) {
+      font-size: 50px;
+    }
   }
   &__subtitle {
     margin: 10px 0;
@@ -247,6 +358,9 @@ delivery
     text-align: left;
     font-size: 14px;
     color: #414141;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
   }
 }
 
@@ -262,24 +376,48 @@ delivery
     font-size: 45px;
     font-weight: bold;
     color: #222222;
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      margin: 20px 0;
+    }
   }
   &__items {
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
   }
   &__item {
     margin: 0 30px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 54px 0 rgba(222, 222, 222, 1);
+    @media screen and (max-width: 1024px) {
+        width: 30%;
+    }
+    @media screen and (max-width: 768px) {
+      margin: 20px 0;
+    }
   }
   &__img {
     width: 250px;
     height: 200px;
     margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px) {
+      width: 95%;
+      height: auto;
+    }
     & img {
       min-height: 200px;
       width: 100%;
+      @media screen and (max-width: 1024px) {
+        min-height: auto;
+      }
     }
   }
   &__subtitle {
@@ -288,6 +426,9 @@ delivery
     font-weight: bold;
     color: #222222;
     margin: 20px 0 10px;
+    @media screen and (max-width: 1024px) {
+      font-size: 18px;
+    }
   }
   &__bottom {
     display: flex;
@@ -298,6 +439,9 @@ delivery
     margin-top: 70px;
     color: #222222;
     border: 1px solid #222222;
+    @media screen and (max-width: 768px) {
+      margin-top: 30px;
+    }
   }
 }
 
@@ -329,6 +473,9 @@ delivery
   .order-comment {
     width: 60%;
     margin: 10px auto;
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
   }
   .input-name,
   .input-phone,
